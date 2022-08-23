@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+	
+	<head>
+		<!-- Boilerplate HTML stuff -->
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Our page's title and custom styling file -->
+		<title>Jeannine Polivka</title>
+		
+		<!-- Bootstrap files -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="index.css" type="text/css">
+</head>
+
+	<body>
+
+		<!-- Make the navbar "sticky" (sticks to top of screen) -->
+		<!-- <div class="sticky-top"> -->
+			
+			<!-- Navbar -->
+			<nav class="navbar navbar-inverse navbar-fixed-top navbar-expand-md navbar-light bg-light justify-content-center">
+				
+				<a class="navbar-brand d-flex w-50 mr-auto" href="#">Home</a>
+
+				<!-- This button replaces the links list when in mobile. -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Navbar links -->
+				<div class="collapse navbar-collapse" id="nav">
+					<ul class="nav navbar-nav mr-auto justify-content-end">
+						<li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+							<a class="nav-link" href="#about">About Me</a>
+						</li>
+						<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+							<a class="nav-link" href="#research">Research</a>
+						</li>
+						<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+							<a class="nav-link" href="#teaching">Teaching</a>
+						</li>
+						<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+		<!--</div> -->
+		<!-- Page content -->
+		<div class="container-fluid">
+
+			<div class="col main">
+
+				<!-- Home section -->
+
+				<div class="row section" id="home">
+					<div class="bigtext">
+						<h2>Jeannine Polivka</h2>
+				</div>
+				</div>
+
+				<!-- About section -->
+				<div class="row section" id="about">
+					<div class="col-2">
+						<img src="media2/me (2) - Kopie.jpg" class="img-fluid">
+					</div>
+					<div class="col-9">
+						<span class="align-middle">
+							<p> I am a PhD Candidate in Econometrics at the University of St.Gallen (HSG), 
+							holding an M.Sc. in Mathematical Finance from the University of Konstanz. 
+							My <!-- <a style="color:#b92b41;"href="#research">research</a> -->research
+ interests include Financial Econometrics, Macroeconometrics and Time Series Analysis.
+							In my thesis, I am exploring structural multivariate volatility models. </p> 
+<p> Currently, I am visiting researcher at the Universitat Pompeu Fabra (UPF) with financing by a one year mobility grant.
+							</p>
+							<button id="cvbutton" type="button" onclick="window.location.href = 'media/CV_Polivka_2022.pdf' ">Check out my CV</button>
+</span>
+					</div>
+				</div>
+				<!-- Research section -->
+
+				<div class="row section" id ="research">
+                    <div class="col-11">
+					<h2 class="full-width-tinted">Research</h2>
+					    <p>                        <br>
+						<h5 class="full-width-blank">Working Papers</h5>
+                        <p>•	Fengler, M. R. and Polivka, J. (2022a). Identifying structural shocks to volatility through a proxy-MGARCH model, Economics Working Paper Series 2103, University of St. Gallen, 
+URL: <a href="https://ideas.repec.org/p/usg/econwp/202103.html">https://ideas.repec.org/p/usg/econwp/202103.html</a>, revise and resubmit.</p>
+<p>•	Fengler, M. R. and Polivka, J. (2022b). Structural volatility impulse response analysis, Technical report, University of St.Gallen (HSG), to be submitted.</p>
+<p>•	Dimitriadis, T., Halbleib, R., Polivka, J. and Streicher S. (2022). Efficient Realized Variance Estimation in Time-Changed Diffusion Processes, Technical Report, to be submitted.</p>
+<p>•	Polivka, J. (2022). Time-varying shock transmission in structural volatility models, Technical report, University of St.Gallen (HSG).</p>
+
+<button id="repecbutton" type="button" onclick="window.location.href = 'https://ideas.repec.org/f/ppo716.html' ">Check out my RePEc profile</button>
+
+                        <p>                        <br>
+						<h5>Conference contributions</h5>
+<p>• 	EEA-ESEM 2022, European meeting of the Econometric Society, 
+Parallel Session: Macroeconometrics.</p>
+<p>• 	QFFE 2022, International Conference on Quantitative Finance and Financial Econometrics, Parallel Session 1: ARCH. Parallel Session 2: High Frequency Data.</p>
+<p>• 	BSE Summer Forum 2022, Barcelona School of Economics, 
+Poster Session: Advances in Econometrics.</p>
+<p>• 	CFE 2021, 15th International Conference on Computational and Financial Econometrics,
+Invited Session: Advances in Volatility Modeling.</p>
+<p>• 	2021 NBER-NSF Time Series Conference,
+Poster Session: Advances in Time Series Modeling.</p>
+<p>• 	University of Bologna 2021, Department of Economics: Internal Seminar.</p>
+<p>• 	SoFiE 2021. Annual Conference of the Society of Financial Econometrics 2021, 
+Parallel Session: Volatility.</p>
+<p>• 	SSES 2021. Annual Congress of the Swiss Society of Economics and Statistics, 
+Parallel Session: Econometrics III.</p>
+<p>• 	RMI 2021, NUS RMI 14th Annual Risk Management Conference.
+Parallel Session: Advances in Risk Management.</p>
+<p>• 	CEQURA 2019, 10th Conference on Advances in Financial and Insurance Risk Management.</p>
+						<p>                        <br>
+						<h5>Review Activities</h5>
+                        <p>• International Journal of Forecasting</p>
+						<p>• Econometrics and Statistics</p>
+					</div>
+				</div>
+
+	
+				<!-- Teaching section -->
+				<div class="row section" id = "teaching" Teaching>
+                    <div class="col-12">
+						<h2 class="full-width-tinted" >Teaching</h2>
+					    <p>                        <br>
+						<h5>Teaching Fellow</h5>
+                        <p>• Time Series Econometrics, Master level (2018-2021, University of St.Gallen)</p>
+						<p>• Econometric Methods for Financial Instruments, Master level (2018-2021, University of St.Gallen)</p>
+						<p>• Data Analytics in Finance, Bachelor level (2019-2021, University of St.Gallen)</p>
+						<p>• Mathematics A/B relief tutor & correction assistant, Bachelor level (2019-2021, University of St.Gallen) </p>
+						<p>• Analysis I, Bachelor level (2015, University of Konstanz)</p>
+                    </div>
+				</div>
+	
+	
+
+				<!-- Contact section -->
+				<div class="row section" id="contact">
+                    <div class="bigtext2">
+                        <h2 class="text-center">Interested in a joint project?</h2>
+                        <p>Contact me at <a href="#">jeannine.polivka@unisg.ch</a> or connect with me on <a href='https://ch.linkedin.com/in/jeannine-polivka-409036135'>LinkedIn</a></p>
+                        <br>
+                  <!--      <p>Find me on the below platforms too:</p>
+                        <p><a href='https://www.researchgate.net/profile/Jeannine_Polivka'>ResearchGate</a> • <a href="#">Alumni</a> • <a href='https://ch.linkedin.com/in/jeannine-polivka-409036135'>LinkedIn</a></p> -->
+                    </div>
+				</div>
+
+			</div>
+			
+		</div>
+
+	</body>
+
+</html>

@@ -128,6 +128,20 @@ img {
     transition-duration: 0.3s;
 }
 
+#arxivbutton {
+    color: white;
+    background-color: #A4B9D2;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    box-shadow: 0px 4px 8px rgba(17,17,17,0.2);
+}
+#arxivbutton:hover {
+    background-color: #4974a5;
+    transition-duration: 0.3s;
+}
+
 .full-width-tinted {
   position: relative
   padding-left: 10%;
